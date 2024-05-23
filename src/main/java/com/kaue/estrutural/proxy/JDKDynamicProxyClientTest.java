@@ -1,8 +1,8 @@
-package com.kaue.proxy;
+package com.kaue.estrutural.proxy;
 
-import com.kaue.proxy.dynamicjdk.ProxyFactoryJDK;
-import com.kaue.proxy.dynamicjdk.domain.EnglishGreetingService;
-import com.kaue.proxy.dynamicjdk.domain.GreetingService;
+import com.kaue.estrutural.proxy.dynamicjdk.ProxyFactoryJDK;
+import com.kaue.estrutural.proxy.dynamicjdk.domain.EnglishGreetingService;
+import com.kaue.estrutural.proxy.dynamicjdk.domain.GreetingService;
 
 public class JDKDynamicProxyClientTest {
 

@@ -1,4 +1,4 @@
-package com.kaue.proxy.dynamicjdk.domain;
+package com.kaue.estrutural.proxy.dynamicjdk.domain;
 
 public class EnglishGreetingService implements GreetingService {
     @Override

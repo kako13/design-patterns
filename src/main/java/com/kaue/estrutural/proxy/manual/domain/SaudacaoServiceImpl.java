@@ -1,4 +1,4 @@
-package com.kaue.proxy.manual.domain;
+package com.kaue.estrutural.proxy.manual.domain;
 
 public class SaudacaoServiceImpl implements SaudacaoService {
     @Override

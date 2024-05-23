@@ -1,4 +1,4 @@
-package com.kaue.proxy.cglib;
+package com.kaue.estrutural.proxy.cglib;
 
 import net.sf.cglib.proxy.Enhancer;
 

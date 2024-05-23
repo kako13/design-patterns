@@ -1,4 +1,4 @@
-package com.kaue.proxy.dynamicjdk;
+package com.kaue.estrutural.proxy.dynamicjdk;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;

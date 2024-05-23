@@ -1,4 +1,4 @@
-package com.kaue.proxy.cglib;
+package com.kaue.estrutural.proxy.cglib;
 
 public class SaludosServiceImpl {
     public String hola(String name) {

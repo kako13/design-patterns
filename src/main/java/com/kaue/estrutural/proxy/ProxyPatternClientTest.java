@@ -1,9 +1,9 @@
-package com.kaue.proxy;
+package com.kaue.estrutural.proxy;
 
 
-import com.kaue.proxy.manual.LoggingSaudacaoServiceImplProxy;
-import com.kaue.proxy.manual.domain.SaudacaoServiceImpl;
-import com.kaue.proxy.manual.domain.SaudacaoService;
+import com.kaue.estrutural.proxy.manual.LoggingSaudacaoServiceImplProxy;
+import com.kaue.estrutural.proxy.manual.domain.SaudacaoService;
+import com.kaue.estrutural.proxy.manual.domain.SaudacaoServiceImpl;
 
 public class ProxyPatternClientTest {
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
-package com.kaue.proxy;
+package com.kaue.estrutural.proxy;
 
-import com.kaue.proxy.cglib.SaludosServiceImpl;
-import com.kaue.proxy.cglib.ProxyFactoryCGLib;
+import com.kaue.estrutural.proxy.cglib.ProxyFactoryCGLib;
+import com.kaue.estrutural.proxy.cglib.SaludosServiceImpl;
 
 public class CGLibProxyClientTest {
     public static void main(String[] args) {
