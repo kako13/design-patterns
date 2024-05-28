@@ -11,7 +11,7 @@
 
 ### Cenário
 
-Temos a seguinte interface que defini os métodos de saudação:
+Temos a seguinte interface que define os métodos de saudação:
 
 - ola
 - tchau
