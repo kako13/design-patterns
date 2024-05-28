@@ -312,7 +312,7 @@ Nos dando a oportunidade de estender/modificar/alterar o comportamento da implem
 <summary>CGLib Proxy Pattern</summary>
 <ol>
 
->❗️Descreva abaixo o problema identificado
+>❗️Necessidade de interface
 > 
 > De acordo com as implementações anteriormente abordadas, Proxy Pattern - Estático (com interface) e JDK Dynamic Proxy, toda vez que precisarmos de um proxy para uma `classeX`, precisaremos que a classe implemente uma interface.
 > > 🚧 Ambas implementações exigem uma interface
@@ -327,6 +327,7 @@ Diferente das implementações anteriores Proxy Pattern - Estático (com interfa
 - adios
 
 > SaludosServiceImpl
+> 
 >```java
 >public class SaludosServiceImpl {  
 >    public String hola(String name) {  
