@@ -121,16 +121,14 @@ O Proxy Pattern consiste em:
 ### Conclusão
 
 Agora toda vez que na classe `ProxyPatternClientTest` chamarmos os métodos `ola` ou `tchau` da
-Interface `SaudacaoService`, serão invocados os métodos da classe referenciada `LoggingSaudacaoServiceImplProxy`.
-
-Desta forma nos dando a oportunidade de estender/modificar/alterar o comportamento da implementação da classe
+Interface `SaudacaoService`, serão invocados os métodos da classe referenciada `LoggingSaudacaoServiceImplProxy`. 
+Nos dando a oportunidade de estender/modificar/alterar o comportamento da implementação da classe
 de `EnglishGreetingService`.
 
 </ol>
 </details></ln>
 
 ####
-___
 
 <ln><details>
 <summary>JDK Dynamic Proxy</summary>
@@ -301,15 +299,14 @@ Desta forma poderemos criar proxies de qualquer classe que possua uma interface.
 ### Conclusão
 
 Agora toda vez que na classe `JDKDynamicProxyClient` chamarmos os métodos `greet` ou `goodbye` da Interface `GreetingService` serão invocados através do método ==**`invoke`**== da classe `LoggingInvocationHandler`.
-
-Desta forma nos dando a oportunidade de estender/modificar/alterar o comportamento da implementação da classe de `EnglishGreetingService`.
+Nos dando a oportunidade de estender/modificar/alterar o comportamento da implementação da classe de `EnglishGreetingService`.
 
 </ol>
 </details></ln>
 
 
 ####
-___
+
 
 <ln><details>
 <summary>CGLib Proxy Pattern</summary>
@@ -430,13 +427,11 @@ Desta vez:
 ### Conclusão
 
 Agora toda vez que na classe `CGLibProxyClientTest` chamarmos os métodos `hola` ou `adios` da instancia de `SaludosServiceImpl` a chamada será interceptada pelo método `intercept` da classe `LoggingMethodInterceptor`.
-
-Desta forma nos dando a oportunidade de estender/modificar/alterar o comportamento da classe de `SaludosServiceImpl`.
-
+Nos dando a oportunidade de estender/modificar/alterar o comportamento da classe de `SaludosServiceImpl`.
 
 
 </ol>
 </details></ln>
 
 ####
-___
+
